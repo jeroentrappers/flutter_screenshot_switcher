@@ -3,6 +3,15 @@
 A flutter plugin that allows to enable &#x2F; disable screenshots.
 This only works on Android.
 
+Trivial api:
+
+```
+FlutterScreenshotSwitcher.enableScreenshots();
+FlutterScreenshotSwitcher.disableScreenshots();
+
+```
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter
