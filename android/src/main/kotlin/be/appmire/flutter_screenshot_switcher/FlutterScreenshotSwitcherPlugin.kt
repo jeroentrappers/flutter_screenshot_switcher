@@ -13,6 +13,9 @@ class FlutterScreenshotSwitcherPlugin(private val context: Activity): MethodCall
   companion object {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
+      if (null == registrar.activity()) {
+         return;
+      }
       val channel = MethodChannel(registrar.messenger(), "flutter_screenshot_switcher")
       channel.setMethodCallHandler(FlutterScreenshotSwitcherPlugin(registrar.activity()))
     }
