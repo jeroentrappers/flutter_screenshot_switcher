@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde5caa9-1baa-4405-aa1b-429e2675be43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,22 +53,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1874" height="271" key="GridCell.Tab.0.bottom" timestamp="1598346809425">
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom" timestamp="1598346982996">
       <screen x="0" y="48" width="1920" height="1032" />
     </state>
-    <state width="1874" height="271" key="GridCell.Tab.0.bottom/0.48.1920.1032@0.48.1920.1032" timestamp="1598346809425" />
-    <state width="1874" height="271" key="GridCell.Tab.0.center" timestamp="1598346809423">
+    <state width="1874" height="271" key="GridCell.Tab.0.bottom/0.48.1920.1032@0.48.1920.1032" timestamp="1598346982996" />
+    <state width="1874" height="271" key="GridCell.Tab.0.center" timestamp="1598346982995">
       <screen x="0" y="48" width="1920" height="1032" />
     </state>
-    <state width="1874" height="271" key="GridCell.Tab.0.center/0.48.1920.1032@0.48.1920.1032" timestamp="1598346809423" />
-    <state width="1874" height="271" key="GridCell.Tab.0.left" timestamp="1598346809422">
+    <state width="1874" height="271" key="GridCell.Tab.0.center/0.48.1920.1032@0.48.1920.1032" timestamp="1598346982995" />
+    <state width="1874" height="271" key="GridCell.Tab.0.left" timestamp="1598346982995">
       <screen x="0" y="48" width="1920" height="1032" />
     </state>
-    <state width="1874" height="271" key="GridCell.Tab.0.left/0.48.1920.1032@0.48.1920.1032" timestamp="1598346809422" />
-    <state width="1874" height="271" key="GridCell.Tab.0.right" timestamp="1598346809424">
+    <state width="1874" height="271" key="GridCell.Tab.0.left/0.48.1920.1032@0.48.1920.1032" timestamp="1598346982995" />
+    <state width="1874" height="271" key="GridCell.Tab.0.right" timestamp="1598346982996">
       <screen x="0" y="48" width="1920" height="1032" />
     </state>
-    <state width="1874" height="271" key="GridCell.Tab.0.right/0.48.1920.1032@0.48.1920.1032" timestamp="1598346809424" />
+    <state width="1874" height="271" key="GridCell.Tab.0.right/0.48.1920.1032@0.48.1920.1032" timestamp="1598346982996" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
