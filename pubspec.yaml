@@ -1,6 +1,6 @@
 name: flutter_screenshot_switcher
 description: A flutter plugin that allows to enable &#x2F; disable screenshots.
-version: 1.1.0
+version: 1.2.0
 homepage: https://github.com/jeroentrappers/flutter_screenshot_switcher
 
 environment:
