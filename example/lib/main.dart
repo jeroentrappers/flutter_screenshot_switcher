@@ -26,10 +26,10 @@ class _MyAppState extends State<MyApp> {
         ),
         body:
         Column(children: <Widget>[
-            FlatButton(child:Text("Disable screenshots"), onPressed: () async {
+            TextButton(child:Text("Disable screenshots"), onPressed: () async {
               await FlutterScreenshotSwitcher.disableScreenshots();
             },),
-            FlatButton(child:Text("Enable screenshots"), onPressed: () async {
+            TextButton(child:Text("Enable screenshots"), onPressed: () async {
               await FlutterScreenshotSwitcher.enableScreenshots();
             },)]
         ),
