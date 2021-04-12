@@ -2,6 +2,7 @@
 
 * Migrate to null-safety
 * Minimum Dart SDK 2.12.0
+- thanks to wbusey0 for the Pull Requests
 
 ## 1.2.0
 
