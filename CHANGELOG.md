@@ -1,3 +1,7 @@
+## 2.1.0
+
+* Android embedding 2.0. Thanks https://github.com/wferem1 for the PR!
+
 ## 2.0.0
 
 * Migrate to null-safety
