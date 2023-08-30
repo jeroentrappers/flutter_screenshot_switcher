@@ -1,3 +1,7 @@
+## 2.4.0
+
+* Gradle and Kotlin upgrade
+
 ## 2.2.0
 
 * Support for FlutterFragmentActivity, no longer pinned to FlutterActivity

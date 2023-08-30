@@ -57,6 +57,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    namespace 'be.appmire.flutter_screenshot_switcher_example'
 }
 
 flutter {

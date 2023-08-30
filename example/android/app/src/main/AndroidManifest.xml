@@ -1,5 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="be.appmire.flutter_screenshot_switcher_example">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
         android:label="flutter_screenshot_switcher_example"
         android:icon="@mipmap/ic_launcher">
