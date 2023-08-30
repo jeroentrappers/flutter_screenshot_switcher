@@ -3,7 +3,7 @@ package be.appmire.flutter_screenshot_switcher
 import android.app.Activity
 import android.view.WindowManager
 import androidx.annotation.NonNull
-import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.android.FlutterFragmentActivity
 
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -22,7 +22,7 @@ class FlutterScreenshotSwitcherPlugin: FlutterPlugin, MethodCallHandler, Activit
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
   /// when the Flutter Engine is detached from the Activity
   private lateinit var channel : MethodChannel
-  private lateinit var activity : FlutterActivity
+  private lateinit var activity : Activity
   private lateinit var binaryMessenger: BinaryMessenger
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
@@ -30,7 +30,7 @@ class FlutterScreenshotSwitcherPlugin: FlutterPlugin, MethodCallHandler, Activit
   }
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
-    activity = binding.activity as FlutterActivity
+    activity = binding.activity as Activity
     channel = MethodChannel(binaryMessenger, "flutter_screenshot_switcher")
     channel.setMethodCallHandler(this)
   }
