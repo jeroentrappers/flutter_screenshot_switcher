@@ -1,3 +1,7 @@
+## 2.5.0
+
+* release activity on detaching.
+
 ## 2.4.0
 
 * Gradle and Kotlin upgrade

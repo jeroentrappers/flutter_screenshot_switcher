@@ -22,7 +22,7 @@ class FlutterScreenshotSwitcherPlugin: FlutterPlugin, MethodCallHandler, Activit
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
   /// when the Flutter Engine is detached from the Activity
   private lateinit var channel : MethodChannel
-  private lateinit var activity : Activity
+  private var activity : Activity? = null
   private lateinit var binaryMessenger: BinaryMessenger
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
@@ -36,14 +36,19 @@ class FlutterScreenshotSwitcherPlugin: FlutterPlugin, MethodCallHandler, Activit
   }
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
+    if( null == activity ) {
+      result.success(null)
+      return;
+    }
+
     if( call.method.equals("disableScreenshots")) {
 
-      activity.window.setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+      activity!!.window.setFlags(WindowManager.LayoutParams.FLAG_SECURE,
               WindowManager.LayoutParams.FLAG_SECURE)
       result.success(null)
     }
     else if( call.method.equals("enableScreenshots")) {
-      activity.window.clearFlags(WindowManager.LayoutParams.FLAG_SECURE)
+      activity!!.window.clearFlags(WindowManager.LayoutParams.FLAG_SECURE)
       result.success(null)
     }
     else {
@@ -55,10 +60,16 @@ class FlutterScreenshotSwitcherPlugin: FlutterPlugin, MethodCallHandler, Activit
     channel.setMethodCallHandler(null)
   }
 
-  override fun onDetachedFromActivityForConfigChanges() {}
+  override fun onDetachedFromActivityForConfigChanges() {
+    activity = null;
+  }
 
-  override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {}
+  override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
+    activity = binding.activity as Activity;
+  }
 
-  override fun onDetachedFromActivity() {}
+  override fun onDetachedFromActivity() {
+    activity = null;
+  }
 
 }
